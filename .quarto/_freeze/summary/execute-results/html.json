@@ -1,0 +1,14 @@
+{
+  "hash": "1708cd798474e1429bd77f41c4376f5d",
+  "result": {
+    "markdown": "# Chapter One\n\n## Why Python? Why not R?\n\nThis book will be helpful in making others learn programming. It will be straight to point and avoid jargons as much as possible. I begin with a long time controversy about the best language to use as a data scientist, Python or R. I have used both and I will attempt to highlight the strengths and unavoidably the weaknesses each language possess.\n\nSyntax-wise, Python has no rival. Consider the examples below:\n\nPython example of if-else\n\n\n::: {.cell}\n\n```{.python .cell-code}\nc = 7\nif c >5:\n  print(True)\nelse:\n  print(False)\n```\n\n::: {.cell-output .cell-output-stdout}\n```\nTrue\n```\n:::\n:::\n\n\nR example, just look at the braces, oh\n\n\n::: {.cell}\n\n```{.r .cell-code}\nc <- 7\nif (c > 5) {\n  print(TRUE)\n} else {\n  print(FALSE)\n}\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] TRUE\n```\n:::\n:::\n\n\nSyntax-wise, Python is the clear-cut winner as it is more readable for a regular human.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

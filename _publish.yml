@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: 32dc049f-955b-4823-8fe5-d0e2809481ce
+      url: 'https://lukmanaj.quarto.pub/first_book'

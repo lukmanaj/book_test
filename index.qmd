@@ -1,0 +1,24 @@
+# Preface {.unnumbered}
+
+This is a Quarto book.
+
+I was motivated to begin this by a mentor and I will say this is a plus to me. I am so happy I got the opportunity to actually begin this. So happy.
+
+```{python}
+import numpy as np
+a = np.arange(5)
+```
+
+I began properly learning Python in February this year and I have come so far. This is why, I believe it is time, I work with my mentor to share what I have learnt so far with others. It may be beneficial, we never can tell.
+
+Let's illustrate how I can randomly select one out of many options from a list:
+
+```{python}
+import random
+name_list = ['Lukman','Musa','Sani','Zubair']
+random.choice(name_list)
+```
+
+In this simple illustration, a name was randomly selected from the name_list. If I run the code again, I could get another name. We can easily use this to randomly select the person who gets to empty the bin. Lol.
+
+This gives an idea of what to expect in this book.

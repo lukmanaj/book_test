@@ -1,0 +1,10 @@
+{
+  "hash": "df13d2371d444b83c82d55e44d1d2f4f",
+  "result": {
+    "markdown": "# Introduction\n\nAfter joining Arewa Data Science Academy as a first cohort fellow in ending January, 2023, I have made numerous strides. I have found myself coding in Python and R, learning research how to learn, learning research writing and a lot more. I can even model in both Python and R.\n\nI found it necessary to share the incredible work Arewa Data Science Academy is doing with the hope of motivating others to do more. I am so happy I got the chance to do this.\n\n::: {.cell execution_count=1}\n``` {.python .cell-code}\n# Removing elements from a list\nlist_one = [1,2,3,4,5,6]\nlist_one.pop()\nlist_one\n```\n\n::: {.cell-output .cell-output-display execution_count=1}\n```\n[1, 2, 3, 4, 5]\n```\n:::\n:::\n\n\nJust to showcase my modest Python skills, I had made a Python list and removed the last item and printed the modified list. This little illustration proves that Python lists are mutable, i.e. they can be modified.\n\nOther data structures like tuples cannot be modified and they also have their use-cases.\n\n",
+    "supporting": [
+      "intro_files/figure-pdf"
+    ],
+    "filters": []
+  }
+}

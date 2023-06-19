@@ -1,0 +1,24 @@
+project:
+  type: book
+  output-dir: docs
+env:
+  python: /miniconda3/envs/arewads/bin/python3.10
+  r: /usr/local/bin/R
+
+book:
+  title: "first_book"
+  author: "Lukman Aliyu"
+  date: "6/13/2023"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+
+

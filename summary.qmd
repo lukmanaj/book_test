@@ -1,0 +1,31 @@
+# Chapter One
+
+## Why Python? Why not R?
+
+This book will be helpful in making others learn programming. It will be straight to point and avoid jargons as much as possible. I begin with a long time controversy about the best language to use as a data scientist, Python or R. I have used both and I will attempt to highlight the strengths and unavoidably the weaknesses each language possess.
+
+Syntax-wise, Python has no rival. Consider the examples below:
+
+Python example of if-else
+
+```{python}
+c = 7
+if c >5:
+  print(True)
+else:
+  print(False)
+```
+
+R example, just look at the braces, oh
+
+```{r}
+c <- 7
+if (c > 5) {
+  print(TRUE)
+} else {
+  print(FALSE)
+}
+
+```
+
+Syntax-wise, Python is the clear-cut winner as it is more readable for a regular human.
