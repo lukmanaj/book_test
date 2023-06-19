@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "first_book",
+    "section": "",
+    "text": "Preface\nThis is a Quarto book.\nI was motivated to begin this by a mentor and I will say this is a plus to me. I am so happy I got the opportunity to actually begin this. So happy.\n\nimport numpy as np\na = np.arange(5)\n\nI began properly learning Python in February this year and I have come so far. This is why, I believe it is time, I work with my mentor to share what I have learnt so far with others. It may be beneficial, we never can tell.\nLet’s illustrate how I can randomly select one out of many options from a list:\n\nimport random\nname_list = ['Lukman','Musa','Sani','Zubair']\nrandom.choice(name_list)\n\n'Musa'\n\n\nIn this simple illustration, a name was randomly selected from the name_list. If I run the code again, I could get another name. We can easily use this to randomly select the person who gets to empty the bin. Lol.\nThis gives an idea of what to expect in this book."
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "After joining Arewa Data Science Academy as a first cohort fellow in ending January, 2023, I have made numerous strides. I have found myself coding in Python and R, learning research how to learn, learning research writing and a lot more. I can even model in both Python and R.\nI found it necessary to share the incredible work Arewa Data Science Academy is doing with the hope of motivating others to do more. I am so happy I got the chance to do this.\n\n# Removing elements from a list\nlist_one = [1,2,3,4,5,6]\nlist_one.pop()\nlist_one\n\n[1, 2, 3, 4, 5]\n\n\nJust to showcase my modest Python skills, I had made a Python list and removed the last item and printed the modified list. This little illustration proves that Python lists are mutable, i.e. they can be modified.\nOther data structures like tuples cannot be modified and they also have their use-cases."
+  },
+  {
+    "objectID": "summary.html#why-python-why-not-r",
+    "href": "summary.html#why-python-why-not-r",
+    "title": "2  Chapter One",
+    "section": "2.1 Why Python? Why not R?",
+    "text": "2.1 Why Python? Why not R?\nThis book will be helpful in making others learn programming. It will be straight to point and avoid jargons as much as possible. I begin with a long time controversy about the best language to use as a data scientist, Python or R. I have used both and I will attempt to highlight the strengths and unavoidably the weaknesses each language possess.\nSyntax-wise, Python has no rival. Consider the examples below:\nPython example of if-else\n\nc = 7\nif c &gt;5:\n  print(True)\nelse:\n  print(False)\n\nTrue\n\n\nR example, just look at the braces, oh\n\nc &lt;- 7\nif (c &gt; 5) {\n  print(TRUE)\n} else {\n  print(FALSE)\n}\n\n[1] TRUE\n\n\nSyntax-wise, Python is the clear-cut winner as it is more readable for a regular human."
+  }
+]
